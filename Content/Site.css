@@ -1,0 +1,335 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* css padrão todas as pgs*/
+
+.btn-active {
+    background-color: rgba(158, 76, 0, 0.925);
+}
+
+.separator {
+    height: 5px;
+    background-color: rgba(252, 122, 0, 0.925);
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto;
+}
+
+
+/*inicio css index:*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(252, 122, 0, 0.925);
+    padding: 10px 0;
+    text-align: center;
+}
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 5px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        nav a:hover {
+            background-color: rgba(158, 76, 0, 0.925);
+        }
+
+section {
+    color: #000000;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .feature img {
+        max-width: 100%;
+    }
+
+    .feature h2 {
+        color: black;
+        background-color: rgba(252, 122, 0, 0.925);
+        margin-top: 10px;
+    }
+
+    .feature h3 {
+        background-color: rgba(252, 122, 0, 0.925);
+    }
+
+    .feature p {
+        color: #fff;
+    }
+
+button {
+    border-radius: 5px;
+    background-color: rgba(252, 122, 0, 0.925);
+    padding: 10px 20px;
+}
+
+.tit {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(252, 122, 0, 0.925);
+    text-decoration: underline;
+}
+
+    .tit img {
+        max-width: 80%;
+    }
+
+.frase {
+    color: white;
+}
+
+.split {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    .split .feature {
+        width: calc(50% - 15px);
+    }
+
+.feature a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*fim css index*/
+
+
+/*inicio css sobre*/
+
+
+.about {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cor {
+    color: rgba(252, 122, 0, 0.925);
+}
+
+/*fim css sobre*/
+
+/*inicio css contato*/
+
+section .contato {
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+
+form button {
+    background-color: rgba(252, 122, 0, 0.925);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+    form button:hover {
+        background-color: #f0efe8;
+        box-sizing: border-box;
+    }
+
+nav a .contato {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contato{
+    color: white;
+}
+
+.contato .talk {
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+.intro {
+    color: white;
+}
+
+.form{
+    text-align: center;
+}
+
+/*fim css contato*/
+
+/*inicio css login*/
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h2 {
+    color: orange;
+}
+
+
+button {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #ff9900;
+    }
+/*fim csss login*/
+
+/*inicio css cadsatro*/
+
+.signup-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h2 {
+    color: orange;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: white;
+}
+
+select.custom-select {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    box-shadow: orange;
+    box-sizing: border-box;
+}
+
+    select.custom-select option {
+        background-color: black;
+        color: white;
+    }
+
+/*usado no cadastro, contato e login: */
+form input[type="nome"],
+form input[type="email"],
+form input[type="text"],
+form input[type="password"],
+form input[type="text"],
+form input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/*fim */
+
+button {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #ff9900;
+    }
+
+h2.cadastro {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*fim csss cadastro*/
